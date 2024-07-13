@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    height: 80px;
+    background:#011924;
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    padding-left: 20px;
+font-size: 30px;
+color: #4F738E;
+font-weight: 1000;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    gap: 50px;
+    padding: 20px ;
+}
+nav ul li a{
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    color: blanchedalmond;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+nav ul li a:hover{
+    transition-delay: 0.1s;
+    color: antiquewhite;
+    background: #24445c;
+}
+
+.content{
+   
+padding-top: 100px;
+background-position: center;
+background-size: cover;
+background-image: url(vecteezy_abstract-big-data-flow-technology-background-vector_3705383.jpg);
+height: 110vh;
+
+}
+
+.content h1{
+    letter-spacing: 1px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: orange;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.content p{
+  color: #4F738E;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+.btn{
+    top: 50px;
+    background-color: orangered;
+    padding: 10px 8px;
+    border-radius:10px ;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 700;
+    
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+.btn:hover{
+    color: #011924;
+    background-color: rgb(243, 121, 76);
+}
